@@ -93,11 +93,13 @@ Main EDA findings
 | Date | Work |
 |---|---|
 | 2026-11-09 | Repository structure, reusable `src/` modules, EDA and 8 baselines (Assignment 1) |
+| 2026-11-10 | Group details; notebook executed in Google Colab (results updated: GBDT 0.732, Ridge 0.907) |
+| 2026-11-10 | Kaggle notebook fixed for the new data mount path; first late submission (private RMSE 0.680) |
 
 ## Kaggle submission history
 | Date | Notebook / model | Public score | Private score | Note |
 |---|---|---|---|---|
-| – | `kaggle/submission_baseline.ipynb` (GBDT residual) | – | – | To be submitted as a late submission |
+| 2026-11-10 | `kaggle/submission_baseline.ipynb` v3 – GBDT residual baseline (B7) | – | 0.68028 | Late submission (not ranked); CV RMSE 0.732 |
 
 ## Acknowledgements
 Data: NFL Next Gen Stats via Kaggle – Lopez, Bliss, Blake, Yan, Plomecka, Howard (2025),
