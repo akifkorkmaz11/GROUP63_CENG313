@@ -1,13 +1,11 @@
-# GROUPXX_CENG313 · NFL Big Data Bowl 2026 – Prediction
+# GROUP63_CENG313 · NFL Big Data Bowl 2026 – Prediction
 
-> CENG313 term project. Rename the repository to `GROUP{ID}_CENG313` with the group number from the sign-up list.
+> CENG313 term project · Group 63 (single-member group).
 
 ## Team
 | Name | Student ID | GitHub |
 |---|---|---|
-| _Name Surname_ | _xxxxxxxxx_ | _@username_ |
-| _Name Surname_ | _xxxxxxxxx_ | _@username_ |
-| _Name Surname_ | _xxxxxxxxx_ | _@username_ |
+| Akif Korkmaz | 24118080032 | _@github-username_ |
 
 ## Competition
 **[NFL Big Data Bowl 2026 – Prediction](https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction)** (Kaggle, code competition).
@@ -29,7 +27,7 @@ tracking data before the throw, the identity of the targeted receiver and the ba
 
 ## Repository layout
 ```
-GROUPXX_CENG313/
+GROUP63_CENG313/
 ├── README.md
 ├── assignment1_eda_baseline.ipynb   # Assignment 1: EDA + baselines (Colab, executed with outputs)
 ├── assignment2_solution.ipynb       # Assignment 2: proposed solution (December)
