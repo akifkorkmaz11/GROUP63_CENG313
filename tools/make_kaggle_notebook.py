@@ -26,7 +26,9 @@ import numpy as np, pandas as pd
 sys.path.insert(0, os.getcwd())
 from src import data as D, models as M
 
-DATA_DIR = '/kaggle/input/nfl-big-data-bowl-2026-prediction'
+DATA_DIR = D.find_data_dir()          # finds the mounted competition data
+print('data:', DATA_DIR)
+sys.path.insert(0, DATA_DIR)           # kaggle_evaluation package lives next to the data
 inp, out = D.load_train(DATA_DIR)
 rows = D.build_training_frame(inp, out)
 model = M.GBDTResidual().fit(rows)

@@ -55,6 +55,7 @@ def find_data_dir(candidates: Optional[Iterable[str]] = None) -> str:
     paths = [env] if env else []
     paths += list(candidates or []) + [
         f"/kaggle/input/{COMPETITION}",
+        f"/kaggle/input/competitions/{COMPETITION}",
         f"/content/{COMPETITION}",
         f"/content/drive/MyDrive/{COMPETITION}",
         f"./data/{COMPETITION}",
@@ -64,6 +65,11 @@ def find_data_dir(candidates: Optional[Iterable[str]] = None) -> str:
     for p in paths:
         if p and os.path.isdir(os.path.join(p, "train")):
             return os.path.abspath(p)
+    # Kaggle may mount competition data in a sub-folder (e.g. /kaggle/input/competitions/<slug>)
+    for pattern in ["/kaggle/input/*/train/input_2023_w01.csv", "/kaggle/input/*/*/train/input_2023_w01.csv"]:
+        hits = sorted(glob.glob(pattern))
+        if hits:
+            return os.path.dirname(os.path.dirname(hits[0]))
     raise FileNotFoundError(
         "Competition data not found. Set NFL_DATA_DIR or place the data in ./data/" + COMPETITION)
 
