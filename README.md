@@ -5,7 +5,7 @@
 ## Team
 | Name | Student ID | GitHub |
 |---|---|---|
-| Akif Korkmaz | 24118080032 | _@github-username_ |
+| Akif Korkmaz | 24118080032 | [@akifkorkmaz11](https://github.com/akifkorkmaz11) |
 
 ## Competition
 **[NFL Big Data Bowl 2026 – Prediction](https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction)** (Kaggle, code competition).
@@ -44,8 +44,8 @@ GROUP63_CENG313/
 
 ## How to run
 **Google Colab (recommended)**
-1. Open `assignment1_eda_baseline.ipynb` in Colab (*File → Open notebook → GitHub*).
-2. Set `REPO_URL` in the first cell to this repository.
+1. Open `assignment1_eda_baseline.ipynb` in Colab (*File → Open notebook → GitHub* → `akifkorkmaz11/GROUP63_CENG313`).
+2. The first cell clones this repository (`REPO_URL`); keep the repository public or sign in to GitHub in Colab.
 3. Accept the competition rules on Kaggle, then run all cells and upload `kaggle.json` when asked
    (Kaggle → Settings → API → *Create New Token*). The data is downloaded with the Kaggle API.
 

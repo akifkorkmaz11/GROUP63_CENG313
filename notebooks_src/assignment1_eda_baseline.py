@@ -30,7 +30,7 @@
 import os, sys, subprocess
 
 IN_COLAB = "google.colab" in sys.modules
-REPO_URL = "https://github.com/<github-user>/GROUP63_CENG313.git"   # TODO: replace with the group repo URL
+REPO_URL = "https://github.com/akifkorkmaz11/GROUP63_CENG313.git"
 REPO_DIR = "GROUP63_CENG313"
 
 if IN_COLAB:
