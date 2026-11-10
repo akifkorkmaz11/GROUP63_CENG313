@@ -436,7 +436,7 @@ print(sub.shape); sub.head()
 # **Baselines**
 # * Pure physics (constant velocity) gives 1.64 yd; adding role-dependent attraction towards the ball spot
 #   with 10 fitted weights already improves it by 23% (1.26 yd).
-# * Learned corrections on top of constant velocity reach 0.92 yd (ridge) and **0.74 yd (GBDT, −55%)**.
+# * Learned corrections on top of constant velocity reach 0.91 yd (ridge) and **0.73 yd (GBDT, −55%)**.
 #   This is the baseline to beat in Assignment 2. Fold-to-fold variation (±0.09) shows that game-level splits
 #   matter: some games are much harder than others.
 #

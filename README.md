@@ -77,8 +77,8 @@ Out-of-fold RMSE (yards) over all 562,936 training frames, 5-fold GroupKFold by 
 | B3 | Damped velocity | velocity decays as e^(−kt), k fitted | 1.661 | 0.057 | -1.3% |
 | B4 | Straight to ball | run straight to the landing spot | 3.922 | 0.049 | -139.1% |
 | B5 | Role-aware physics blend | per-role/phase blend of the two above (fitted weights) | 1.256 | 0.058 | +23.4% |
-| B6 | Ridge residual | linear model of the constant-velocity residual | 0.915 | 0.131 | +44.2% |
-| B7 | GBDT residual | gradient-boosted trees on the constant-velocity residual | **0.737** | 0.090 | +55.0% |
+| B6 | Ridge residual | linear model of the constant-velocity residual | 0.907 | 0.115 | +44.7% |
+| B7 | GBDT residual | gradient-boosted trees on the constant-velocity residual | **0.732** | 0.086 | +55.4% |
 
 ![Baselines](reports/figures/07_baseline_rmse.png)
 
