@@ -65,6 +65,8 @@ these steps automatically).
 
 ## How to run
 **Google Colab (recommended)**
+Direct link: [open `assignment1_eda_baseline.ipynb` in Colab](https://colab.research.google.com/github/ceng313-2026/GROUP63_CENG313/blob/main/assignment1_eda_baseline.ipynb)
+
 1. Open `assignment1_eda_baseline.ipynb` in Colab with the *Open in Colab* badge at the top of the notebook
    (or *File → Open notebook → GitHub* → `ceng313-2026/GROUP63_CENG313`).
 2. The first cell clones this repository (`REPO_URL`); keep the repository public or sign in to GitHub in Colab.
